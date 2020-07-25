@@ -1,20 +1,16 @@
 <?php
 // Heading
-$_['heading_title']        = '评估配送费用及税费';
+$_['heading_title']    = '运费';
 
 // Text
-$_['text_success']         = '成功: 已进行配送费用评估！';
-$_['text_shipping']        = '输入目的地以得到配送费用评估。';
-$_['text_shipping_method'] = '请选择适用于本订单的配送方式。';
+$_['text_extension']   = '扩展功能';
+$_['text_success']     = '成功: 已修改运费！';
+$_['text_edit']        = '编辑运费';
 
 // Entry
-$_['entry_country']        = '国家';
-$_['entry_zone']           = '省 / 州';
-$_['entry_postcode']       = '邮政编码';
+$_['entry_estimator']  = '运费预估';
+$_['entry_status']     = '状态';
+$_['entry_sort_order'] = '排序';
 
 // Error
-$_['error_postcode']       = '邮政编码必须介于 2 - 10 字符之间！';
-$_['error_country']        = '请选择国家！';
-$_['error_zone']           = '请选择省 / 州！';
-$_['error_shipping']       = '警告: 配送方式必选！';
-$_['error_no_shipping']    = '警告: 无可用配送选项，请 <a href="%s">联系我们</a> 获取支持！';
+$_['error_permission'] = '警告: 无权限修改运费！';

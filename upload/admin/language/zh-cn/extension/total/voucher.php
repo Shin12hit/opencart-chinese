@@ -1,14 +1,15 @@
 <?php
 // Heading
-$_['heading_title'] = '使用代金券';
+$_['heading_title']    = '代金券';
 
 // Text
-$_['text_voucher']  = '代金券 (%s)';
-$_['text_success']  = '成功: 已应用代金券！';
+$_['text_extension']   = '扩展功能';
+$_['text_success']     = '成功: 已修改代金券！';
+$_['text_edit']        = '编辑代金券';
 
 // Entry
-$_['entry_voucher'] = '输入代金券码';
+$_['entry_status']     = '状态';
+$_['entry_sort_order'] = '排序';
 
 // Error
-$_['error_voucher'] = '警告: 代金券无效或已用完！';
-$_['error_empty']   = '警告: 请输入代金券码！';
+$_['error_permission'] = '警告: 无权限修改代金券！';

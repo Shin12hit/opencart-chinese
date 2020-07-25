@@ -1,16 +1,15 @@
 <?php
 // Heading
-$_['heading_title'] = '使用奖励积分 (可用积分 %s)';
+$_['heading_title']    = '奖励积分';
 
 // Text
-$_['text_reward']   = '奖励积分 (%s)';
-$_['text_order_id'] = '订单号: #%s';
-$_['text_success']  = '成功: 已应用奖励积分！';
+$_['text_extension']   = '扩展功能';
+$_['text_success']     = '成功: 已修改奖励积分！';
+$_['text_edit']        = '编辑奖励积分';
 
 // Entry
-$_['entry_reward']  = '使用奖励积分 (最多 %s)';
+$_['entry_status']     = '状态';
+$_['entry_sort_order'] = '排序';
 
 // Error
-$_['error_reward']  = '警告: 请输入要使用的奖励积分数值！';
-$_['error_points']  = '警告: 您目前没有 %s 奖励积分！';
-$_['error_maximum'] = '警告: 可用奖励积分最大数值为 %s!';
+$_['error_permission'] = '警告: 无权限修改奖励积分！';

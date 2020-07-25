@@ -1,75 +1,54 @@
 <?php
-// Text
-$_['text_title']						= 'PayPal';
-$_['text_checkout_payment_address']  	= 'Billing Details';
-$_['text_checkout_shipping_address'] 	= 'Delivery Details';
-$_['text_checkout_shipping_method']  	= 'Delivery Method';
-$_['text_checkout_payment_method']  	= 'Payment Method';
-$_['text_your_details']              	= 'Your Personal Details';
-$_['text_your_address']              	= 'Your Address';
-$_['text_cart']               			= 'Shopping Cart';
-$_['text_shipping_updated']   			= 'Shipping service updated';
-$_['text_order_message']				= 'PayPal Seller Protection - %s';
-$_['text_day']                 			= 'day';
-$_['text_week']                			= 'week';
-$_['text_semi_month']          			= 'half-month';
-$_['text_month']               			= 'month';
-$_['text_year']                			= 'year';
-$_['text_trial']               			= '%s every %s %s for %s payments then ';
-$_['text_recurring']          			= '%s every %s %s';
-$_['text_payment_cancel']      			= 'until cancelled';
-$_['text_recurring_item']      			= 'Recurring Item';
-$_['text_payment_recurring']   			= 'Payment Profile';
-$_['text_trial_description']   			= '%s every %d %s(s) for %d payment(s) then';
-$_['text_payment_description'] 			= '%s every %d %s(s) for %d payment(s)';
-$_['text_payment_cancel']      			= '%s every %d %s(s) until canceled';
+// Heading
+$_['heading_title']    					= 'PayPal Smart Button';
 
-// Column
-$_['column_image']             			= 'Image';
-$_['column_name']              			= 'Product Name';
-$_['column_model']             			= 'Model';
-$_['column_quantity']          			= 'Quantity';
-$_['column_price']             			= 'Unit Price';
-$_['column_total']             			= 'Total';
+// Text
+$_['text_extensions']   				= 'Extensions';
+$_['text_edit']        					= 'Edit PayPal Smart Button Module';
+$_['text_general']				 	 	= 'General';
+$_['text_product_page']					= 'Product Page';
+$_['text_cart_page']					= 'Cart Page';
+$_['text_insert_prepend']				= 'Insert Into Begin';
+$_['text_insert_append']				= 'Insert Into End';
+$_['text_insert_before']				= 'Insert Before';
+$_['text_insert_after']					= 'Insert After';
+$_['text_align_left']					= 'Align Left';
+$_['text_align_center']					= 'Align Center';
+$_['text_align_right']					= 'Align Right';
+$_['text_small']			 			= 'Small';
+$_['text_medium']			 	 		= 'Medium';
+$_['text_large']			 	 		= 'Large';
+$_['text_responsive']			 	 	= 'Responsive';
+$_['text_gold']			 	 			= 'Gold';
+$_['text_blue']			 	 			= 'Blue';
+$_['text_silver']			 	 		= 'Silver';
+$_['text_white']			 	 		= 'White';
+$_['text_black']			 	 		= 'Black';
+$_['text_pill']			 	 			= 'Pill';
+$_['text_rect']			 	 			= 'Rect';
+$_['text_checkout']			 	 		= 'Checkout';
+$_['text_pay']			 	 			= 'Pay';
+$_['text_buy_now']			 	 		= 'Buy Now';
+$_['text_pay_pal']			 	 		= 'PayPal';
+$_['text_installment']			 	 	= 'Installment';
+$_['text_yes']			 	 			= 'Yes';
+$_['text_no']			 	 			= 'No';
 
 // Entry
-$_['entry_email']                    	= 'E-Mail';
-$_['entry_firstname']                	= 'First Name';
-$_['entry_lastname']                 	= 'Last Name';
-$_['entry_telephone']               	= 'Telephone';
-$_['entry_company']                  	= 'Company';
-$_['entry_address_1']                	= 'Address 1';
-$_['entry_address_2']                	= 'Address 2';
-$_['entry_postcode']                 	= 'Post Code';
-$_['entry_city']                     	= 'City';
-$_['entry_country']                  	= 'Country';
-$_['entry_zone']                    	= 'Region / State';
+$_['entry_status']     					= 'Status';
+$_['entry_product_page_status']     	= 'Product Page Status';
+$_['entry_cart_page_status']     		= 'Cart Page Status';
+$_['entry_insert_tag']     				= 'Insert Tag';
+$_['entry_insert_type']     			= 'Insert Type';
+$_['entry_button_align']     			= 'Button Align';
+$_['entry_button_size'] 				= 'Button Size';
+$_['entry_button_color'] 				= 'Button Color';
+$_['entry_button_shape'] 				= 'Button Shape';
+$_['entry_button_label'] 				= 'Button Label';
+$_['entry_button_tagline'] 				= 'Button Tagline';
 
-// Button
-$_['button_confirm']  					= 'Confirm';
-$_['button_shipping'] 					= 'Update shipping';
+// Success
+$_['success_save']						= 'Success: You have modified PayPal Smart Button module!';
 
 // Error
-$_['error_stock']              			= 'Products marked with *** are not available in the desired quantity or not in stock!';
-$_['error_minimum']            			= 'Minimum order amount for %s is %s!';
-$_['error_required']           			= '%s required!';
-$_['error_product']            			= 'Warning: There are no products in your cart!';
-$_['error_recurring_required'] 			= 'Please select a payment recurring!';
-$_['error_unavailable'] 	  			= 'Please use the full checkout with this order!';
-$_['error_shipping']                 	= 'Warning: Shipping method required!';
-$_['error_no_shipping']    				= 'Warning: No Shipping options are available.';
-$_['error_firstname']                	= 'First Name must be between 1 and 32 characters!';
-$_['error_lastname']                 	= 'Last Name must be between 1 and 32 characters!';
-$_['error_email']                    	= 'E-Mail address does not appear to be valid!';
-$_['error_telephone']                	= 'Telephone must be between 3 and 32 characters!';
-$_['error_password']                 	= 'Password must be between 4 and 20 characters!';
-$_['error_confirm']                  	= 'Password confirmation does not match password!';
-$_['error_address_1']                	= 'Address 1 must be between 3 and 128 characters!';
-$_['error_city']                     	= 'City must be between 2 and 128 characters!';
-$_['error_postcode']                 	= 'Postcode must be between 2 and 10 characters!';
-$_['error_country']                  	= 'Please select a country!';
-$_['error_zone']                     	= 'Please select a region / state!';
-$_['error_agree']                    	= 'Warning: You must agree to the %s!';
-$_['error_address']                  	= 'Warning: You must select address!';
-$_['error_custom_field']             	= '%s required!';
-$_['error_timeout'] 	  				= 'Sorry, PayPal is currently busy. Please try again later!';
+$_['error_permission'] 					= 'Warning: You do not have permission to modify PayPal Express Checkout Button module!';

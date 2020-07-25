@@ -1,6 +1,6 @@
 <?php
 // Text
 $_['text_subject']  = '%s - 推广佣金';
-$_['text_received'] = '祝贺！您通过 %s 的推广功能获得了一笔推广佣金';
-$_['text_amount']   = '您收到了:';
-$_['text_total']    = '目前总佣金金额为:';
+$_['text_received'] = '获得了 %s 推广佣金!';
+$_['text_total']    = '目前总推广佣金为 %s。';
+$_['text_credit']   = '推广佣金可以在您下一次购买时进行抵扣。';
